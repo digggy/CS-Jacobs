@@ -1,0 +1,60 @@
+{- |
+ Module: p6-boolexpr/boolexpr.hs
+
+ -}
+ 
+ module BoolExpr (Variable, BoolExpr(..), evaluate) where
+ import Data.List 
+ type Variable = Char
+
+ data BoolExpr
+    = T
+    | F
+    | Var Variable
+    | Not BoolExpr
+    | And BoolExpr BoolExpr
+    | Or BoolExpr BoolExpr
+    deriving (Eq, Ord, Show)
+
+ -- evaluates an expression
+ evaluate :: BoolExpr -> [Variable] -> Bool
+ evaluate T ts = True
+ evaluate F ts = False
+ evaluate (Var v) ts = elem v ts
+ evaluate (Not e) ts = not (evaluate e ts)
+ evaluate (And e1 e2) ts = evaluate e1 ts && evaluate e2 ts
+ evaluate (Or e1 e2) ts = evaluate e1 ts || evaluate e2 ts
+
+ variables :: BoolExpr -> [Variable]
+ variables T = ""
+ variables F = ""
+ variables (Var v) = [v]
+ variables (Not e) = variables (e)
+ variables (And e1 e2) = sort $ union (variables e1) (variables e2) 
+ variables (Or e1 e2) = sort $ union (variables e1)  (variables e2) 
+
+ {-Explaination :: variables 
+  Here the variables funtion takes data type BoolExpr and returns the characters;
+  When Not,And and Or are used then the function variable is called again(recursion) and the union function removes the repetation 
+  and the sort function sorts the list in alphabetic order . 
+.
+
+ -}
+
+ subsets :: [Variable] -> [[Variable]]
+ subsets [] = [[]]
+ subsets(x:xs) = subsets xs ++ map (x:) (subsets xs)
+ {-Explaination :: subsets
+ This function recurses the tail of the function and concatenates it to 
+ the mapping of head to the another recursion of tail. This, thus, breaks the string 
+ into each possible branch and makes the list
+ -}
+
+ truthtable :: BoolExpr -> [([Variable], Bool)]
+ truthtable x = [(substr, evaluate x substr) | substr <- subsets (variables x)] 
+ 
+ {-Explaination ::  truthtable
+ The function uses list comprehension to assign each substring to the evaluate method
+ This method generates truth value for each substring which in turn creates
+ the whole truth table.
+ -}

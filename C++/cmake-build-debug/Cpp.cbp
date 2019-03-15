@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/diggy/Desktop/Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/diggy/Desktop/Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/diggy/Desktop/Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp">
+				<Option output="/home/diggy/Desktop/Cpp/cmake-build-debug/Cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/diggy/Desktop/Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab1/Critter"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab1/Critter2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p3"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p4"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p3"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p4"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p5"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/Vector not working/a4p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p5"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp/fast">
+				<Option output="/home/diggy/Desktop/Cpp/cmake-build-debug/Cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/diggy/Desktop/Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab1/Critter"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab1/Critter2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p3"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p4"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a3p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p3"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p4"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p5"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/a4p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab2/Vector not working/a4p6"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p1"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p2"/>
+					<Add directory="/home/diggy/Desktop/Cpp/Lab3/a5p5"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/diggy/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter/Critter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter/Critter.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter/testcritter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter2/Critter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter2/Critter.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/Critter2/testcritter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p1.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p2.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p3.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p4.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p5.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a1p6.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p1.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p2.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p3.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p4.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p5.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab1/a2p6.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/Vector not working/a4p6/Vector.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/Vector not working/a4p6/Vector.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/Vector not working/a4p6/testvector.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p1/City.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p1/City.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p1/testcity.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p2/Critter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p2/Critter.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p2/testcritter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p3/Critter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p3/Critter.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p3/testcritter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p4/Critter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p4/Critter.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p4/testcritter.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p5/copyconstructor.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p6/Complex.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p6/Complex.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a3p6/testcomplex.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p1/Box.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p1/Box.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p1/testbox.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p2/creature.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p3/Creature.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p3/Creature.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p3/testcreature.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p4/Creature.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p4/Creature.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p4/testcreature.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p5/Shapes.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p5/Shapes.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p5/testshapes.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p6/Vector.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p6/Vector.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab2/a4p6/testvector.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p1/Shapes.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p1/Shapes.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p1/testHexgon.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p2/TournamentMember.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p2/TournamentMember.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p2/testTournamentMember.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p5/fraction.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p5/fraction.h">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/Lab3/a5p5/testfraction.cpp">
+			<Option target="Cpp"/>
+		</Unit>
+		<Unit filename="/home/diggy/Desktop/Cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

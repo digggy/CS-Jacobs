@@ -1,0 +1,9 @@
+This is a little story. For checking	the testing 
+your word occurrence 	program. Yes, it is! 
+Am I missing a question   for testing? 
+This is where the, 	 story ends. 
+Little test is ending here. 
+A little bit more and we are done. 
+Are we? Little.
+Little? Little!
+This onelittletwo should not be counted.

@@ -1,0 +1,26 @@
+# 
+# JTSK-320112
+# Problem 3.1
+# Digdarshan Kunwar
+# d.kunwar@jacobs-university.de
+# 
+
+all: main
+	./main
+
+main: linked_list.o use_linked_list.o
+	gcc -Wall -o main use_linked_list.o linked_list.o
+
+linked_list.o: linked_list.h linked_list.c
+	gcc -Wall -c linked_list.c
+	
+use_linked_list.o: linked_list.h use_linked_list.c linked_list.c
+	gcc -Wall -c use_linked_list.c
+
+deleteofiles:
+	rm -f *.o
+	
+deleteexec:
+	rm -f main	
+
+deleteall: deleteexec deleteofiles
