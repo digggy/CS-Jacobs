@@ -1,6 +1,7 @@
 import time
 import random
 
+#function to generate random pivots
 def generatePivot(arr,low,high):
         number1=1
         number2=1
@@ -14,6 +15,9 @@ def partition(arr,low,high):
 
     a,b=generatePivot(arr,low,high)
 
+    # making sure the random pivots are swaped to the first and the last position
+    # the pivot with the greater value on the last and the lower to the first 
+
     if arr[a]<arr[b]:
         arr[a],arr[low]=arr[low],arr[a]
         arr[b],arr[high]=arr[high],arr[b]
@@ -23,7 +27,8 @@ def partition(arr,low,high):
 
     if arr[low] > arr[high]:
         arr[low], arr[high]=arr[high],arr[low]
-    
+
+    #Other code is same as QuicksortVariant.py
     pivot1 = arr[low]
     pivot2 = arr[high]
     p1 = low + 1
@@ -63,7 +68,7 @@ def quicksort(arr, low,high):
         quicksort(arr, pvt_1+1, pvt_2-1)
         quicksort(arr, pvt_2+1, high)
     
-
+    
 arr=[134,23123,34312,3,123,-4132,1,5,4,-2,9,-300,300,-4123,-324,0,5,4,3,2,1,0,-1,-4,321,324,423,2341,123,-4132,1,5,4,-2,9,-300,300,-4123,-324,0,5,4,3,2,1,0,-1,-4,321,324,423,2341]
 
 print (arr)

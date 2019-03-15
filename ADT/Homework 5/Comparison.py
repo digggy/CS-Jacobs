@@ -16,9 +16,9 @@ lomutoCase=[]
 hoareCase=[]
 medianCase=[]
 index=[]
-
-for i in range(1,100001,2):
-    
+j=0
+for i in range(1,100000,1):
+    j+=1 
     print(i)
     array1=generateRandom(1000)
     array2=array1
@@ -43,10 +43,16 @@ for i in range(1,100001,2):
     index.append(i)
 
 
-lo=sum(lomutoCase)/100000
-ho=sum(hoareCase) /100000
-me=sum(medianCase)/100000
+#calculating the average 
+lo=sum(lomutoCase)/j
+ho=sum(hoareCase) /j
+me=sum(medianCase)/j
 
+print("Lomuto Case :",lo)
+print("Hoare Case :",ho)
+print("Median Case :",me)
+
+##### Comment the code below if you dont want to plot graph
 axes = plt.gca()
 # axes.set_ylim([0, 0.05])
 plt.plot(index, lomutoCase, label="Lomuto Case", linewidth=0.5)
@@ -58,9 +64,6 @@ plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05),
 
 plt.ylabel('Time ')
 # plt.show()
-plt.savefig('./Plot/data1/Heapsort_comparision'+str(i)+'.png', dpi=300)
+plt.savefig('./Plot/data2/Heapsort_comparision'+str(i)+'.png', dpi=300)
 plt.clf()
 
-print("Lomuto Case :",lo)
-print("Hoare Case :",ho)
-print("Median Case :",me)
