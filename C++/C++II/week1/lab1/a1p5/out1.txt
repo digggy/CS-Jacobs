@@ -1,0 +1,1 @@
+The result of Matrix A * Vector B is : [5,11,17,23]
