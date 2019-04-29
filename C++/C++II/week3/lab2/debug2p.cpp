@@ -25,11 +25,11 @@ void foo(int *array, int n, int *odds)
 
 class Test
 {
-  private:
+private:
 	double *a;
 	int n;
 
-  public:
+public:
 	Test()
 	{
 		a = NULL;

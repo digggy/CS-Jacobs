@@ -13,7 +13,7 @@ Card::Card(rank r, suit s, bool ifu) : m_Rank(r), m_Suit(s), m_IsFaceUp(ifu)
 int Card::GetValue() const
 {
     int value;
-    // to be filled with content
+    // if the value is greater than 10 then it is 10
     value = (this->m_Rank > 10) ? 10 : this->m_Rank;
     return value;
 }

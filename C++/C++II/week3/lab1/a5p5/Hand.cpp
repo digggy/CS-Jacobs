@@ -3,6 +3,7 @@ CH08-320143
 a5p1.cpp
 Digdarshan Kunwar
 d.kunwar@jacobs-university.de
+
 */
 #include "Hand.h"
 
@@ -37,18 +38,33 @@ void Hand::Clear()
 int Hand::GetTotal() const
 {
     int total = 0;
-    // to be filled with content
     vector<Card *>::const_iterator iter = m_Cards.begin();
     for (iter = m_Cards.begin(); iter != m_Cards.end(); ++iter)
     {
         Card *temp = *iter;
-        if (total < 10 && temp->GetValue() == 1)
+        int ace = 0;
+
+        if (temp->GetValue() == 1)
         {
-            total += 11;
+            ace++;
         }
         else
         {
             total += temp->GetValue();
+        }
+        // Case when the total is less than equal to 10
+        // Then we have Ace's value as 11
+
+        for (int i = 0; i < ace; i++)
+        {
+            if (total <= 10)
+            {
+                total += 11;
+            }
+            else
+            {
+                total += 1;
+            }
         }
     }
     return total;

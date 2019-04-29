@@ -10,7 +10,7 @@ using namespace std;
 
 class Card
 {
-  public:
+public:
     enum rank
     {
         ACE = 1,
@@ -46,7 +46,7 @@ class Card
     //flips a card; if face up, becomes face down and vice versa
     void Flip();
 
-  private:
+private:
     rank m_Rank;
     suit m_Suit;
     bool m_IsFaceUp;
@@ -73,7 +73,7 @@ void Card::Flip()
 
 class Hand
 {
-  public:
+public:
     Hand();
 
     virtual ~Hand();
@@ -87,7 +87,7 @@ class Hand
     //gets hand total value, intelligently treats aces as 1 or 11
     int GetTotal() const;
 
-  protected:
+protected:
     vector<Card *> m_Cards;
 };
 
@@ -137,7 +137,7 @@ class GenericPlayer : public Hand
 {
     friend ostream &operator<<(ostream &os, const GenericPlayer &aGenericPlayer);
 
-  public:
+public:
     GenericPlayer(const string &name = "");
 
     virtual ~GenericPlayer();
@@ -151,7 +151,7 @@ class GenericPlayer : public Hand
     //announces that the generic player busts
     void Bust() const;
 
-  protected:
+protected:
     string m_Name;
 };
 
@@ -175,7 +175,7 @@ void GenericPlayer::Bust() const
 
 class Player : public GenericPlayer
 {
-  public:
+public:
     Player(const string &name = "");
 
     virtual ~Player();
@@ -226,7 +226,7 @@ void Player::Push() const
 
 class House : public GenericPlayer
 {
-  public:
+public:
     House(const string &name = "House");
 
     virtual ~House();
@@ -265,7 +265,7 @@ void House::FlipFirstCard()
 
 class Deck : public Hand
 {
-  public:
+public:
     Deck();
 
     virtual ~Deck();
@@ -336,7 +336,7 @@ void Deck::AdditionalCards(GenericPlayer &aGenericPlayer)
 
 class Game
 {
-  public:
+public:
     Game(const vector<string> &names);
 
     ~Game();
@@ -344,7 +344,7 @@ class Game
     //plays the game of blackjack
     void Play();
 
-  private:
+private:
     Deck m_Deck;
     House m_House;
     vector<Player> m_Players;

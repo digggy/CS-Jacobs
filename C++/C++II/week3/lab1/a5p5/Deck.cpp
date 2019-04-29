@@ -40,7 +40,14 @@ void Deck::Shuffle()
 
 void Deck::Deal(Hand &aHand)
 {
-    // to be filled with content
+    //Suffling the cards
+    this->Shuffle();
+    //A new card for the player from the end
+    Card *newcard = *m_Cards.rbegin();
+    //Removing the card after its deals from m_Cards
+    m_Cards.pop_back();
+    //Adding the card to aHand
+    aHand.Add(newcard);
 }
 
 void Deck::AdditionalCards(GenericPlayer &aGenericPlayer)

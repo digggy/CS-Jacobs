@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "new": "cpp"
+        "new": "cpp",
+        "*.tcc": "cpp",
+        "type_traits": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "stdexcept": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "exception": "cpp"
     }
 }
