@@ -28,7 +28,7 @@ It covers advanced topics of C programming such as the work of the preprocessor,
 
 | <a href="https://ms.sapientia.ro/~kasa/Algorithms_3rd.pdf" target="_blank">**Introdution to Algorithms**</a> | <a href="https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X" target="_blank">**Algorithms Book**</a> | <a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank">**Algorithms Visualization**</a> |
 | :---: |:---:| :---:|
-| ![Introdution to Algorithms](https://i.ibb.co/YPbDJ5h/Introdution-To-Algorithms.jpg)| ![Algorithms Book](https://i.ibb.co/pZfF5dD/Algorithms.jpg) | ![enter image description here](https://i.ibb.co/2gJ8xFW/Algorithm-visualization.gif)  |
+| <img src="https://i.ibb.co/YPbDJ5h/Introdution-To-Algorithms.jpg"  width="220">|<img src="https://i.ibb.co/pZfF5dD/Algorithms.jpg"  width="220">|<img src="https://media.giphy.com/media/mG7jGQf0dc8FOWqUMv/giphy.gif"  width="420"> |
 ---
 
 ## Contributing 
