@@ -24,11 +24,11 @@ The unit covers the object-oriented programming constructs in C++ in a hands-on 
 
 It covers advanced topics of C programming such as the work of the preprocessor, operations on the bit level, data structures, file handling (binary input and output), libraries, and debugging techniques. Data structures like dynamically allocated multidimensional arrays, linked lists, stacks, queues, tree structures are used for solving practical problems.
 
-## reference books
+## Reference books
 
 | <a href="https://ms.sapientia.ro/~kasa/Algorithms_3rd.pdf" target="_blank">**Introdution to Algorithms**</a> | <a href="https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X" target="_blank">**Algorithms Book**</a> | <a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank">**Algorithms Visualization**</a> |
 | :---: |:---:| :---:|
-| ![enter image description here](https://i.ibb.co/YPbDJ5h/Introdution-To-Algorithms.jpg =200x)| ![enter image description here](https://i.ibb.co/wYx7j10/Algorithms.jpg%22%20alt=%22Algorithms =200x) | ![enter image description here](https://i.ibb.co/2gJ8xFW/Algorithm-visualization.gif)  |
+| ![Introdution to Algorithms](https://i.ibb.co/YPbDJ5h/Introdution-To-Algorithms.jpg)| ![Algorithms Book](https://i.ibb.co/pZfF5dD/Algorithms.jpg) | ![enter image description here](https://i.ibb.co/2gJ8xFW/Algorithm-visualization.gif)  |
 ---
 
 ## Contributing 
@@ -47,3 +47,4 @@ It covers advanced topics of C programming such as the work of the preprocessor,
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
