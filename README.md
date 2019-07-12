@@ -1,6 +1,5 @@
-
-# CS-Jacobs
-
+# <img src="https://i.ibb.co/MPVGS2N/computer-Science.png"  width="880">
+# Computer Science @Jacobs
 This repository contains all the course material, homework assignment, and notes from the courses I have enrolled at Jacobs University.
 
 ## Table of Contents
