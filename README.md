@@ -40,7 +40,7 @@ It covers advanced topics of C programming such as the work of the preprocessor,
 ### Step 2
 - **HACK AWAY!** 🔨🔨🔨
 ### Step 3
-- 🔃 Create a new pull request using `https://github.com/digggy/CS-Jacobs/compare/`.
+- 🔃 Create a new pull request for adding and optimizing the code .
 
 ---
 ## License
