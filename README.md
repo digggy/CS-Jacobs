@@ -3,8 +3,6 @@
 This repository contains all the course material, homework assignment, and notes from the courses I have enrolled at Jacobs University.
 
 ## Table of Contents
-
-> If you're `README` has a lot of info, section headers might be nice.
 * [Algorithms & Data Structures](#algorithms-and-data-structures)
 * [Introduction to Computer Science](#introduction-to-computer-science)
 * [Programming in C](#programming-in-c)
