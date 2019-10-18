@@ -1,4 +1,6 @@
 # <img src="https://i.ibb.co/MPVGS2N/computer-Science.png"  width="880">
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
 # Computer Science @Jacobs
 This repository contains all the course material, homework assignment, and notes from the courses I have enrolled at Jacobs University.
 
